@@ -10,6 +10,11 @@ List of some AD tools I frequently use
 - bloodyAD (https://github.com/CravateRouge/bloodyAD)
 - powerview.py (https://github.com/aniqfakhrul/powerview.py)
 - Certipy (https://github.com/ly4k/Certipy)
+- PKINITtools (https://github.com/dirkjanm/PKINITtools)
+- targetedKerberoast (https://github.com/ShutdownRepo/targetedKerberoast)
+- gssapi-abuse (https://github.com/CCob/gssapi-abuse)
+- krbrelayx (https://github.com/dirkjanm/krbrelayx)
+- ntdissector (https://github.com/synacktiv/ntdissector)
 - sliver (https://github.com/BishopFox/sliver)
 - Responder (https://github.com/SpiderLabs/Responder)
 - pypykatz (https://github.com/skelsec/pypykatz)
@@ -21,14 +26,18 @@ List of some AD tools I frequently use
 - hashgrab (https://github.com/xct/hashgrab)
 - RunasCs (https://github.com/antonioCoco/RunasCs/releases)
 - GodPotato (https://github.com/BeichenDream/GodPotato)
+- PrintSpoofer (https://github.com/itm4n/PrintSpoofer)
+- DeadPotato (https://github.com/lypd0/DeadPotato)
 - proxychains4
 - chisel (https://github.com/jpillora/chisel)
 - ligolo-ng (https://github.com/nicocha30/ligolo-ng)
 - nc64.exe (https://github.com/int0x33/nc.exe/)
 - rcat (https://github.com/xct/rcat)
 - ConPtyShell (https://github.com/antonioCoco/ConPtyShell)
+- winpspy (https://github.com/xct/winpspy)
 - winPEAS (https://github.com/peass-ng/PEASS-ng/releases/tag/20240922-a5703fe8)
 - PrivescCheck (https://github.com/itm4n/PrivescCheck)
+- LaZagne (https://github.com/AlessandroZ/LaZagne)
 ## Recommendations
 - It is recommended to use `pipx` whenever possible for installing command-line python applications to keep them isolated.
 - It is also recommended to use a python virtual environment when installing tools to avoid breaking system-wide packages.
@@ -200,6 +209,27 @@ usage: certipy [-v] [-h] {account,auth,ca,cert,find,forge,ptt,relay,req,shadow,t
 
 Active Directory Certificate Services enumeration and abuse
 ```
+### PKINITtools
+```
+➜  git clone https://github.com/dirkjanm/PKINITtools
+```
+### targetedKerberoast
+```
+➜  git clone https://github.com/ShutdownRepo/targetedKerberoast
+```
+### gssapi-abuse
+```
+➜  git clone https://github.com/CCob/gssapi-abuse
+```
+### krbrelayx
+```
+➜  git clone https://github.com/dirkjanm/krbrelayx
+```
+### ntdissector
+```
+➜  git clone https://github.com/synacktiv/ntdissector
+➜  python3 -m pip install ./ntdissector
+```
 ### sliver
 ```
 ➜  wget https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_linux -O sliver-server
@@ -275,6 +305,15 @@ Archive:  RunasCs.zip
 ```
 ➜  wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe -O gp.exe
 ```
+### PrintSpoofer
+```
+➜  wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe
+➜  wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe
+```
+### DeadPotato
+```
+➜  wget https://github.com/lypd0/DeadPotato/releases/download/v1.2/DeadPotato-NET4.exe
+```
 ### proxychains
 ```
 ➜  sudo apt-get install proxychains4
@@ -337,6 +376,12 @@ target/x86_64-pc-windows-gnu/release/rcat.exe
 ➜  wget https://github.com/antonioCoco/ConPtyShell/releases/download/1.5/ConPtyShell.zip
 ➜  wget https://raw.githubusercontent.com/antonioCoco/ConPtyShell/refs/heads/master/Invoke-ConPtyShell.ps1
 ```
+### winpspy
+```
+➜  git clone https://github.com/xct/winpspy
+
+Build with Visual Studio
+```
 ### winPEAS
 ```
 ➜  wget https://github.com/peass-ng/PEASS-ng/releases/download/20240922-a5703fe8/winPEASx64.exe
@@ -344,4 +389,8 @@ target/x86_64-pc-windows-gnu/release/rcat.exe
 ### PrivescCheck
 ```
 ➜  wget https://raw.githubusercontent.com/itm4n/PrivescCheck/refs/heads/master/PrivescCheck.ps1
+```
+### LaZagne
+```
+➜  wget https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.6/LaZagne.exe
 ```

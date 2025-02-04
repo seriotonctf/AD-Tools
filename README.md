@@ -109,7 +109,7 @@ alias bloodhound="~/tools/BloodHound/BloodHound --disable-gpu-sandbox"
 ```
 ### BloodHound.py
 ```
-pip3 install bloodhound
+pipx install bloodhound
 ```
 
 ```
@@ -199,6 +199,10 @@ Python alternative to SharpSploit's PowerView script, version 2024.6.6
 ### certipy
 ```
 ➜  pip3 install certipy-ad
+```
+Or using pipx
+```
+➜  pipx install -f "git+https://github.com/ly4k/Certipy.git"
 ```
 
 ```
